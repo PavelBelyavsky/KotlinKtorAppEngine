@@ -172,6 +172,7 @@ limitations under the License.
                     <appEngineDirectory>./</appEngineDirectory>
                     <!-- Tell App Engine plugin to use the Fat JAR with all of the dependencies -->
                     <artifact>${project.build.directory}/${project.build.finalName}-jar-with-dependencies.jar</artifact>
+                    <deploy.projectId>test-cicd-263720g</deploy.projectId>
                 </configuration>
             </plugin>
         </plugins>
