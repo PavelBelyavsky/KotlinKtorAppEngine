@@ -39,7 +39,7 @@ fun Application.module(testing: Boolean = false) {
 
     routing {
         get("/") {
-            call.respondText("Hello World Google!", contentType = ContentType.Text.Plain)
+            call.respondText("Hello, Mashka!", contentType = ContentType.Text.Plain)
         }
     }
 }
